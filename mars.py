@@ -2,5 +2,9 @@
 
 
 # Read in data
+import pandas as pd
+import numpy as np
 
-read_csv('mar_elements.csv')
+mars_elements_data = pd.read_csv('mars_elements.csv')
+
+mars_elements_data
